@@ -11,6 +11,13 @@ Route::controller(PageController::class)->group(function(){
   Route::get('/blog/{id}',[PageController::class,'showBlog'])->name('Blog');
 });
 
+Route::get('/firstpost', function () {
+  return view('firstpost', [
+      'name' => 'Amrita',
+      'highlights' => ['Introduction to Blade', 'Dynamic data', 'Clean structure']
+  ]);
+});
+
 Route::get('/test',TestingController::class);
 
 
