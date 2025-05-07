@@ -1,5 +1,5 @@
 @php
-    $user="Amrita";
+    $user="Amrita Rajvansh ";
     $fruits=["Grapes","Apple"]
 @endphp
 
