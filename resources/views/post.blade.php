@@ -2,16 +2,19 @@
 
 @section('content')
 
-   <h2>Post Page</h2>
-   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-    when an unknown printer took a galley of type and scrambled it to make a type 
-    specimen book. It has survived not only five centuries, but also the leap into 
-    electronic typesetting, remaining essentially unchanged. It was popularised in 
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-    and more recently with desktop publishing software like Aldus PageMaker including 
-    versions of Lorem Ipsum.</p>
-@endsection
+ <div class="container mt-4">
+    <h2>Latest Updates</h2>
+    <p>
+        Welcome to the post section of our website. Here, we share the latest insights, updates, and stories 
+        from our team. Whether it's a new feature launch, a behind-the-scenes look at our development process, 
+        or tips to help you make the most of our platform, this is where you'll find it.
+    </p>
+
+    <p>
+        Our goal is to keep you informed and engaged with meaningful content that adds value to your experience. 
+        Stay tuned for upcoming posts, and don’t forget to share your feedback — we love hearing from you!
+    </p>
+</div>
   
 @section('title')
  Post
