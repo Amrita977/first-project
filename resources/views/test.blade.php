@@ -1,6 +1,6 @@
 @php
     $user="Amrita Rajvansh ";
-    $fruits=["Grapes","Apple"]
+    $fruits=["Grapes","Apple","Mango","Oranges"]
 @endphp
 
 <script>
