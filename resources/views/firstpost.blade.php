@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>First Post Page</h1>
-    <h2>This is the first post</h2>
+    <h2>This is the first post.</h2>
 
     <p>Welcome to your first post page using Laravel Blade!</p>
 
