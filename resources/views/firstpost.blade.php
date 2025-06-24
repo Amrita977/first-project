@@ -16,11 +16,11 @@
     @isset($name)
         <p>Hello, {{ $name }}! Glad to see you here.</p>
     @else
-        <p>Hello, Guest!</p>
+        <p>Hello,Guest!</p>
     @endisset
 
     <!-- Example of Blade loop -->
-    <h3>Post Highlights:</h3>
+    <h3>Post Highlights: </h3>
     <ul>
         @foreach($highlights ?? [] as $item)
             <li>{{ $item }}</li>
